@@ -3,7 +3,9 @@
 
     function getThemeRoot() {
         return document.querySelector('.dashboard-layout')
-            || document.querySelector('.company-details-page');
+            || document.querySelector('.company-details-page')
+            || document.querySelector('.login-page')
+            || document.querySelector('.register-page');
     }
 
     function applyTheme(theme) {
