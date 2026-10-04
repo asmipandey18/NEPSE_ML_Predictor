@@ -5,7 +5,8 @@
         return document.querySelector('.dashboard-layout')
             || document.querySelector('.company-details-page')
             || document.querySelector('.login-page')
-            || document.querySelector('.register-page');
+            || document.querySelector('.register-page')
+            || document.querySelector('.index-page');
     }
 
     function applyTheme(theme) {

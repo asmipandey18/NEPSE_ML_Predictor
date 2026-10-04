@@ -671,3 +671,83 @@ body {
     }
 
 }
+
+
+/* =========================================================
+   LIGHT MODE
+========================================================= */
+
+.register-page.light-mode {
+    background:
+        radial-gradient(
+            circle at 50% 15%,
+            rgba(0, 190, 180, 0.06),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 80% 80%,
+            rgba(0, 100, 220, 0.04),
+            transparent 30%
+        ),
+        linear-gradient(
+            180deg,
+            #f4f7fb 0%,
+            #eef2f9 100%
+        );
+}
+
+.register-page.light-mode .register-card {
+    background: rgba(255, 255, 255, 0.92);
+    border-color: #e0e6f0;
+}
+
+.register-page.light-mode .register-header h1 {
+    color: #172033;
+}
+
+.register-page.light-mode .register-header p {
+    color: #71809d;
+}
+
+.register-page.light-mode .form-field label {
+    color: #3a4664;
+}
+
+.register-page.light-mode .input-box input {
+    background: #f4f7fb;
+    border-color: #e0e6f0;
+    color: #172033;
+}
+
+.register-page.light-mode .input-box input::placeholder {
+    color: #71809d;
+}
+
+.register-page.light-mode .input-box > i,
+.register-page.light-mode .show-password {
+    color: #71809d;
+}
+
+.register-page.light-mode .terms label {
+    color: #71809d;
+}
+
+.register-page.light-mode .login-link p {
+    color: #71809d;
+}
+
+.register-page.light-mode .back-home {
+    color: #71809d;
+}
+
+.register-page.light-mode .back-home:hover {
+    color: #00b89c;
+}
+
+.register-page.light-mode .register-footer {
+    color: #96a3bd;
+}
+
+.register-page.light-mode .brand-name span {
+    color: #172033;
+}
