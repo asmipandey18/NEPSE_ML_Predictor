@@ -36,6 +36,16 @@ section {
 
 
 /* =========================================================
+   INDEX PAGE WRAPPER
+========================================================= */
+
+.index-page {
+    background: #06112b;
+    min-height: 100vh;
+}
+
+
+/* =========================================================
    NAVBAR
 ========================================================= */
 
@@ -1849,4 +1859,183 @@ section {
     outline: 2px solid #00cfc0;
 
     outline-offset: 4px;
+}
+
+
+/* =========================================================
+   LIGHT MODE
+========================================================= */
+
+.index-page.light-mode {
+    background: #f4f7fb;
+}
+
+.index-page.light-mode .index-navbar {
+    background: #ffffff;
+    border-bottom-color: #e0e6f0;
+}
+
+.index-page.light-mode .index-logo strong {
+    color: #172033;
+}
+
+.index-page.light-mode .index-nav-links > a:not(.index-get-started) {
+    color: #3a4664;
+    background: #f4f7fb;
+    border-color: #e0e6f0;
+}
+
+.index-page.light-mode .index-nav-links > a:not(.index-get-started):hover {
+    color: #172033;
+    background: #eef2f9;
+}
+
+.index-page.light-mode .hero-section {
+    background:
+        radial-gradient(circle at 72% 45%, rgba(0, 196, 190, 0.05), transparent 28%),
+        radial-gradient(circle at 10% 20%, rgba(35, 90, 200, 0.04), transparent 25%),
+        linear-gradient(180deg, #f4f7fb 0%, #eef2f9 100%);
+}
+
+.index-page.light-mode .hero-title {
+    color: #172033;
+}
+
+.index-page.light-mode .hero-description {
+    color: #71809d;
+}
+
+.index-page.light-mode .company-search {
+    background: #ffffff;
+    border-color: #e0e6f0;
+    color: #71809d;
+}
+
+.index-page.light-mode .company-search span {
+    color: #71809d;
+}
+
+.index-page.light-mode .secondary-btn {
+    background: #ffffff;
+    border-color: #e0e6f0;
+    color: #3a4664;
+}
+
+.index-page.light-mode .small-label,
+.index-page.light-mode .market-date {
+    color: #71809d;
+}
+
+.index-page.light-mode .nepse-value h2 {
+    color: #172033;
+}
+
+.index-page.light-mode .mini-stock {
+    background: #ffffff;
+    border-color: #e0e6f0;
+}
+
+.index-page.light-mode .stock-symbol {
+    color: #71809d;
+}
+
+.index-page.light-mode .mini-stock strong {
+    color: #172033;
+}
+
+.index-page.light-mode .market-summary {
+    background: linear-gradient(180deg, #eef2f9 0%, #f4f7fb 100%);
+}
+
+.index-page.light-mode .section-title {
+    color: #172033;
+}
+
+.index-page.light-mode .summary-card {
+    background: #ffffff;
+    border-color: #e0e6f0;
+}
+
+.index-page.light-mode .summary-card h3 {
+    color: #172033;
+}
+
+.index-page.light-mode .summary-card p {
+    color: #71809d;
+}
+
+.index-page.light-mode .stock-table-card {
+    background: #ffffff;
+    border-color: #e0e6f0;
+}
+
+.index-page.light-mode .table-heading {
+    color: #172033;
+    border-bottom-color: #e0e6f0;
+}
+
+.index-page.light-mode .stock-table th {
+    color: #71809d;
+}
+
+.index-page.light-mode .stock-table td {
+    color: #3a4664;
+    border-top-color: #e0e6f0;
+}
+
+.index-page.light-mode .stock-table td strong {
+    color: #172033;
+}
+
+.index-page.light-mode .stock-table td small {
+    color: #71809d;
+}
+
+.index-page.light-mode .features-section {
+    background: linear-gradient(180deg, #f4f7fb 0%, #eef2f9 100%);
+}
+
+.index-page.light-mode .features-heading h2 {
+    color: #172033;
+}
+
+.index-page.light-mode .features-heading p {
+    color: #71809d;
+}
+
+.index-page.light-mode .feature-card {
+    border-color: #e0e6f0;
+}
+
+.index-page.light-mode .feature-blue {
+    background: #ffffff;
+}
+
+.index-page.light-mode .feature-purple {
+    background: #ffffff;
+}
+
+.index-page.light-mode .feature-green {
+    background: #ffffff;
+}
+
+.index-page.light-mode .feature-card h3 {
+    color: #172033;
+}
+
+.index-page.light-mode .feature-card p {
+    color: #71809d;
+}
+
+.index-page.light-mode .index-footer {
+    background: #ffffff;
+    border-top-color: #e0e6f0;
+}
+
+.index-page.light-mode .footer-brand p {
+    color: #71809d;
+}
+
+.index-page.light-mode .footer-bottom {
+    color: #71809d;
 }
